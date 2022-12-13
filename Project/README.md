@@ -1,6 +1,11 @@
 American Food Access
 *by James Khalsa, Ninad Kulkarni, Jenna Spero, and Roman Smith*
 ======
+
+This was the final project, which I would like to say was a group effort, but on which I ended up doing a lot of the work.  I've included the full report below, but encourage you to see the webpage for yourself.
+
+
+
 ## Overview
 ![A teaser image of the webpage, showing the heatmap with Maryland selected.](https://github.com/asu-cse494-s2022/James-Jenna-Ninad-Roman/blob/main/img/teaser.png)
 
