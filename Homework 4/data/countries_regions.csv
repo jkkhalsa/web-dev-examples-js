@@ -1,0 +1,198 @@
+﻿geo,name,World bank region
+afg,Afghanistan,SA
+alb,Albania,ECA
+dza,Algeria,MENA
+and,Andorra,ECA
+ago,Angola,SSA
+atg,Antigua and Barbuda,LAC
+arg,Argentina,LAC
+arm,Armenia,ECA
+aus,Australia,EAP
+aut,Austria,ECA
+aze,Azerbaijan,ECA
+bhs,Bahamas,LAC
+bhr,Bahrain,MENA
+bgd,Bangladesh,SA
+brb,Barbados,LAC
+blr,Belarus,ECA
+bel,Belgium,ECA
+blz,Belize,LAC
+ben,Benin,SSA
+btn,Bhutan,SA
+bol,Bolivia,LAC
+bih,Bosnia and Herzegovina,ECA
+bwa,Botswana,SSA
+bra,Brazil,LAC
+brn,Brunei,EAP
+bgr,Bulgaria,ECA
+bfa,Burkina Faso,SSA
+bdi,Burundi,SSA
+khm,Cambodia,EAP
+cmr,Cameroon,SSA
+can,Canada,NA
+cpv,Cape Verde,SSA
+caf,Central African Republic,SSA
+tcd,Chad,SSA
+chl,Chile,LAC
+chn,China,EAP
+col,Colombia,LAC
+com,Comoros,SSA
+cod,"Congo, Dem. Rep.",SSA
+cog,"Congo, Rep.",SSA
+cri,Costa Rica,LAC
+civ,Cote d'Ivoire,SSA
+hrv,Croatia,ECA
+cub,Cuba,LAC
+cyp,Cyprus,ECA
+cze,Czech Republic,ECA
+dnk,Denmark,ECA
+dji,Djibouti,MENA
+dma,Dominica,LAC
+dom,Dominican Republic,LAC
+ecu,Ecuador,LAC
+egy,Egypt,MENA
+slv,El Salvador,LAC
+gnq,Equatorial Guinea,SSA
+eri,Eritrea,SSA
+est,Estonia,ECA
+eth,Ethiopia,SSA
+fji,Fiji,EAP
+fin,Finland,ECA
+fra,France,ECA
+gab,Gabon,SSA
+gmb,Gambia,SSA
+geo,Georgia,ECA
+deu,Germany,ECA
+gha,Ghana,SSA
+grc,Greece,ECA
+grd,Grenada,LAC
+gtm,Guatemala,LAC
+gin,Guinea,SSA
+gnb,Guinea-Bissau,SSA
+guy,Guyana,LAC
+hti,Haiti,LAC
+hos,Holy See,ECA
+hnd,Honduras,LAC
+hkg,"Hong Kong, China",EAP
+hun,Hungary,ECA
+isl,Iceland,ECA
+ind,India,SA
+idn,Indonesia,EAP
+irn,Iran,MENA
+irq,Iraq,MENA
+irl,Ireland,ECA
+isr,Israel,MENA
+ita,Italy,ECA
+jam,Jamaica,LAC
+jpn,Japan,EAP
+jor,Jordan,MENA
+kaz,Kazakhstan,ECA
+ken,Kenya,SSA
+kir,Kiribati,EAP
+prk,North Korea,EAP
+kor,South Korea,EAP
+kwt,Kuwait,MENA
+kgz,Kyrgyz Republic,ECA
+lao,Lao,EAP
+lva,Latvia,ECA
+lbn,Lebanon,MENA
+lso,Lesotho,SSA
+lbr,Liberia,SSA
+lby,Libya,MENA
+lie,Liechtenstein,ECA
+ltu,Lithuania,ECA
+lux,Luxembourg,ECA
+mkd,"Macedonia, FYR",ECA
+mdg,Madagascar,SSA
+mwi,Malawi,SSA
+mys,Malaysia,EAP
+mdv,Maldives,SA
+mli,Mali,SSA
+mlt,Malta,MENA
+mhl,Marshall Islands,EAP
+mrt,Mauritania,SSA
+mus,Mauritius,SSA
+mex,Mexico,LAC
+fsm,"Micronesia, Fed. Sts.",EAP
+mda,Moldova,ECA
+mco,Monaco,ECA
+mng,Mongolia,EAP
+mne,Montenegro,ECA
+mar,Morocco,MENA
+moz,Mozambique,SSA
+mmr,Myanmar,EAP
+nam,Namibia,SSA
+nru,Nauru,EAP
+npl,Nepal,SA
+nld,Netherlands,ECA
+nzl,New Zealand,EAP
+nic,Nicaragua,LAC
+ner,Niger,SSA
+nga,Nigeria,SSA
+nor,Norway,ECA
+omn,Oman,MENA
+pak,Pakistan,SA
+plw,Palau,EAP
+pan,Panama,LAC
+png,Papua New Guinea,EAP
+pry,Paraguay,LAC
+per,Peru,LAC
+phl,Philippines,EAP
+pol,Poland,ECA
+prt,Portugal,ECA
+qat,Qatar,MENA
+rou,Romania,ECA
+rus,Russia,ECA
+rwa,Rwanda,SSA
+kna,St. Kitts and Nevis,LAC
+lca,St. Lucia,LAC
+vct,St. Vincent and the Grenadines,LAC
+wsm,Samoa,EAP
+smr,San Marino,ECA
+stp,Sao Tome and Principe,SSA
+sau,Saudi Arabia,MENA
+sen,Senegal,SSA
+srb,Serbia,ECA
+syc,Seychelles,SSA
+sle,Sierra Leone,SSA
+sgp,Singapore,EAP
+svk,Slovak Republic,ECA
+svn,Slovenia,ECA
+slb,Solomon Islands,EAP
+som,Somalia,SSA
+zaf,South Africa,SSA
+esp,Spain,ECA
+lka,Sri Lanka,SA
+sdn,Sudan,SSA
+sur,Suriname,LAC
+swz,Swaziland,SSA
+swe,Sweden,ECA
+che,Switzerland,ECA
+syr,Syria,MENA
+twn,Taiwan,EAP
+tjk,Tajikistan,ECA
+tza,Tanzania,SSA
+tha,Thailand,EAP
+tls,Timor-Leste,EAP
+tgo,Togo,SSA
+ton,Tonga,EAP
+tto,Trinidad and Tobago,LAC
+tun,Tunisia,MENA
+tur,Turkey,ECA
+tkm,Turkmenistan,ECA
+tuv,Tuvalu,EAP
+uga,Uganda,SSA
+ukr,Ukraine,ECA
+are,United Arab Emirates,MENA
+gbr,United Kingdom,ECA
+usa,United States,NA
+ury,Uruguay,LAC
+uzb,Uzbekistan,ECA
+vut,Vanuatu,EAP
+ven,Venezuela,LAC
+pse,Palestine,MENA
+vnm,Vietnam,EAP
+yem,Yemen,MENA
+zmb,Zambia,SSA
+zwe,Zimbabwe,SSA
+ssd,South Sudan,SSA

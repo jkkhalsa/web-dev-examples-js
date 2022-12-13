@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Homework #5: Argumentative Vis - CSE 494 - Fall 2022</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+        <script src="js/main.js"></script>
+        <style>
+            .myContainer{
+                margin: auto;
+                width: 1200px;
+                overflow: hidden;
+            }
+            .explanation{
+                float: center;
+                width: 1200px;
+                border-radius: 3px;
+                border: 1px solid darkgray
+            }
+            .datavis{
+                border-radius: 3px;
+                width: 600px;
+                height: 600px;
+            }
+
+            #proHuman{
+                float: left;
+                border: 1px solid magenta;
+            }
+            #noMulticlass{
+                float: right;
+                border: 1px solid cyan;
+            }
+            svg{
+                width: 600px;
+                height: 400px;
+                float: right
+            }
+            #right{
+                height: 450px
+            }
+            #tooltip {
+                position: absolute;
+                width: 100px;
+                height: 50px;
+                background-color: blanchedalmond;
+                border: 2px solid darkgray;
+                border-radius: 3px;
+                font-size: 14px;
+                text-align: center;
+            }
+            .caption{
+                float: center;
+                text-align: center;
+                text-align: top;
+            }
+            h3{
+                text-align: center;
+            }
+            #rightCap{
+                float: right;
+                width: 575px;
+                text-align: right;
+            }
+            #leftCap{
+                width: 575px;
+            }
+            td{
+                padding: 5px;
+                font-size: 10px;
+                text-align: right;
+                font-weight: bold;
+            }
+            table{
+                position: absolute;
+                right: 1px;
+                border: 1px solid lightgray;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="myContainer">
+            <h1 class="text-center">Homework #5: Argumentative Vis</h1>
+            <h3 class="text-center">James Khalsa - jkkhalsa@asu.edu</h3>
+            <hr>
+            <div class="explanation">
+                &emsp;Dungeons and Dragons (Fifth Edition) is a tabletop roleplaying game, in which every player brings their own created character to the table.  The first two identifying choices one makes for 
+                any character are the character class - which determines abilites and usually plays into a specific fantasy trope - and character race, which determines appearance, some abilities, 
+                and also often plays into a fantasy trope.  Since these are decisions everyone must make for every character, and since it's a collaborative game in which balance among players 
+                is important, you'll often find rather heated fights online about it!  Which classes are the best or most popular?  Are any races way ahead of the others in power?  Why do martial 
+                characters suck so much more than magical characters?  It's certainly a topic with strong opinions, which can often be found clogging multiple D&D-dedicated Reddit boards. The data 
+                for these visualizations was taken from one such board, <a href="https://www.reddit.com/r/dndnext/comments/qde7r1/update_race_class_poll_results_2000_responses/">post found here.</a>
+                <br>&emsp;For this assignment, we seek to argue the specific question: <strong>Is any one race clearly better (more popular) than the others?</strong>
+                
+            </div>
+            <div class="argumentCharts">
+                <div id="proHuman" class="datavis">
+                    <h3><br>Most Popular Class-Race Combinations</h3>
+                    <svg id="left"></svg>
+                    <div id="humanTricks" class="datavis caption">
+                        <br>
+                        <br>
+                        The four most popular races (seen at center) are included with the basic Player's Handbook, while many of the smaller outliers must be purchased 
+                        separately.
+                    </div>
+                </div>
+                <div id="noMulticlass" class="datavis">
+                    <h3><br>Most Popular Races per Class</h3>
+                    <table id="key">
+                        <tr>
+                            <td>Aasimar ●</td>
+                            <td>Dwarf ●</td>
+                            <td>Elf ●</td>
+                            <td>Gnome ●</td>
+                        </tr>
+                        <tr>
+                            <td>Goliath ●</td>
+                            <td>Half-Elf ●</td>
+                            <td>Half-Orc ●</td>
+                            <td>Human ●</td>
+                        </tr>
+                    </table>
+                    <svg id="right"></svg>
+                    <div id="humanz" class="datavis caption">
+                        Humans are either the first or second most picked race for every class except Barbarian.
+                    </div>
+                </div>
+            </div>
+            <div class="explanation">
+                <div id="rightCap">
+                    &emsp;On the right, we argue that humans are the most popular race choice by far.  We do this by showing the top two races picked for each class - a breakdown 
+                    where humans are disproportionately represented.  By showing both the 
+                    two most popular choices, we get humans on the chart for nearly every class, making their color (chosen to be the darkest on the chart) dominate the graph.  
+                    The human lines are also .3 pixels thicker than all others, to draw the eye and make their color further dominate the chart, without being openly manipulative.  
+                    A lollipop chart is chosen to make easy comparisons between lines, as humans are pretty good at judging distance, and to take up less 
+                    of the limited x-axis space than a bar chart would.  Color is the channel for racial attribute to impress on the viewer at a glance 
+                    that one race is clearly the most popular - and a key is given to make sure the viewer realizes who the color belongs to.
+                </div>
+                <div id="leftCap">
+                    &emsp;On the left, we argue that no one race is substantially more popular or unbalanced than the others.  We do this by showing the breakdown of the most popular 
+                    classes for each race, where four races (elves, humans, half-elves, and dwarves) look nearly similar.  The circle-size channel is used to make the largest four look more similar
+                    than they really are, as the human eye is pretty bad at differentiating circle size.  The animation is chosen for the same reason - to further confuse comparison.  
+                    A color key is omitted in favor of a tooltip to obfuscate the fact that each race is showing only one of its fifteen possible combinations, and that these are not total numbers.
+                    The caption offers an explanation for the proportionally huge number of smaller circles - "well, they cost more!" - which allows the viewer to rationalize and move on from that 
+                    as a discrepancy.
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

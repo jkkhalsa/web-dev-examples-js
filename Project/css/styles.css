@@ -1,0 +1,120 @@
+body {
+	background-color: #121212;
+}
+
+section {
+	display: grid;
+	place-items: center;
+	align-content: center;
+	min-height: 100vh;
+}
+
+.hidden {
+	opacity: 0;
+	transform: translateX(-100%);
+	transition: all 1s;
+}
+
+.show {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+#navigation-dots {
+	position: fixed;
+	top: 50vh;
+	right: 1vw;
+}
+
+/* Pie Chart */
+#pieChart_svg {
+	width: 800px;
+	height: 500px;
+}
+
+/* Bar Chart */
+#bar_svg {
+	width: 800px;
+	height: 500px;
+	color: white;
+}
+
+#line_svg {
+	width: 800px;
+	height: 500px;
+	color: white;
+}
+
+#bubble_svg {
+	color: white;
+}
+
+#scatter_svg {
+	width: 800px;
+	height: 500px;
+	color: white;
+}
+
+div.tooltip {
+	position: absolute;
+	text-align: center;
+	width: auto;
+	height: auto;
+	padding: 5px;
+	font: 15px sans-serif;
+	font-weight: bold;
+	background: lightsalmon;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+  }
+
+#StateNameTitle_Bar,
+#StateNameTitle_Pie,
+#StateNameTitle_Line,
+#StateNameTitle_Scatter,
+#StateNameTitle_Bubble {
+	font-size: 30px;
+}
+
+.text-light{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.states{
+	cursor: pointer;
+}
+
+
+#map_svg {
+	width: 960px;
+	height: 600px;
+}
+#state_svg {
+	width: 200px;
+	height: 2px;
+	left: 15px;
+	position: absolute;
+	z-index: 1000
+}
+
+.left{
+	float: left;
+	width: 40%;
+	display: inline;
+	padding: 20px;
+}
+.right{
+	float: left;
+	width: 60%;
+	display: inline;
+	text-align: right;
+	vertical-align: middle;
+}
+th, td {
+	padding: 15px;
+}
